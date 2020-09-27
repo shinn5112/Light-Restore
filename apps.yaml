@@ -1,0 +1,3 @@
+light_restore:
+  module: light_restore
+  class: LightRestore
