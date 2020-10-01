@@ -1,3 +1,11 @@
 light_restore:
   module: light_restore
   class: LightRestore
+  # settings 
+  days: 1
+  uptime_sensor: sensor.time_online
+  ignored_entites:
+    - light.configuration_tool_1
+  night_range:
+    start_time: '22:00:00'
+    end_time: '07:00:00'
